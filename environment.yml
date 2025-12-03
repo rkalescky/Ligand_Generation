@@ -24,6 +24,7 @@ dependencies:
   - dill
   - cellxgene-census
   - pytorch-cluster
+  - freesasa
   - pip
   - pip:
       - atom3d
