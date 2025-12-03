@@ -5,6 +5,7 @@ channels:
   - pyg
   - conda-forge
 dependencies:
+  - cuda-version=12.6
   - python
   - pytorch
   - pyg
