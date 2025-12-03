@@ -1,0 +1,29 @@
+name: ligand-generation
+channels:
+  - pytorch
+  - nvidia
+  - pyg
+  - conda-forge
+dependencies:
+  - python
+  - pytorch
+  - pyg
+  - numpy
+  - pandas
+  - tqdm
+  - biopython
+  - cairosvg
+  - openbabel
+  - rdkit
+  - pytorch-lightning
+  - selfies
+  - performer-pytorch
+  - pytdc
+  - datasets
+  - dill
+  - cellxgene-census
+  - pytorch-cluster
+  - pip
+  - pip:
+      - atom3d
+      - esm
